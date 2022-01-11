@@ -1,0 +1,6 @@
+SportsStore/bin/
+SportsStore/obj/
+SportsStore/.vscode/
+SportsStore.Tests/bin/
+SportsStore.Tests/obj/
+SportsStore.Tests/.vscode/
