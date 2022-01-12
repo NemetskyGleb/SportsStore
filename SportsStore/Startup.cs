@@ -30,7 +30,7 @@ namespace ProgamFeatures
             services.AddControllersWithViews();
             services.AddDbContext<StoreDbContext>(opts => {
                 opts.UseSqlServer(
-                    Configuration["ConnectionString:SportsStoreConnection"]);
+                    Configuration["ConnectionStrings:SportsStoreConnection"]);
             });
         // The AddScoped method creates a service where each HTTP request gets its own repository object,
         // which is the way that Entity Framework Core is typically used.
