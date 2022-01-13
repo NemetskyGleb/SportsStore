@@ -53,6 +53,7 @@ namespace ProgamFeatures
             {
                 endpoints.MapDefaultControllerRoute();
             });
+            SeedData.EnsurePopulated(app);
         }
     }
 }
