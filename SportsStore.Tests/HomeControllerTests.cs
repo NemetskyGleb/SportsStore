@@ -25,7 +25,7 @@ public class ProductControllerTests
 
         // Act
         ProductsListViewModel result =
-            controller.Index(2).ViewData.Model as ProductsListViewModel;
+            controller.Index().ViewData.Model as ProductsListViewModel;
         // Assert
         Product[] prodArray = result.Products.ToArray();
         Assert.True(prodArray.Length == 2);
